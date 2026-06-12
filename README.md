@@ -2,6 +2,8 @@
   <img src="img/LOGO.png" width="80" height="auto" alt="InAmigos Logo" />
   <h1>InAmigos Foundation</h1>
   <p><em>Uniting Minds for A Change</em></p>
+  
+  <p><strong>🌐 <a href="https://inamigosportal.netlify.app/" target="_blank">View Live Website</a></strong></p>
 
   <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -70,13 +72,7 @@ To run this project locally, you don't need any complex build tools or dependenc
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](#) if you want to contribute.
 
 <div align="center">
-  <br>
-  <h2>💚</h2>
-  <p>Built for the community, to unite minds for a change.</p>
+  <p>💚Built for the community, to unite minds for a change.💚</p>
 </div>
