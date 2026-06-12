@@ -1,0 +1,82 @@
+<div align="center">
+  <img src="img/LOGO.png" width="80" height="auto" alt="InAmigos Logo" />
+  <h1>InAmigos Foundation</h1>
+  <p><em>Uniting Minds for A Change</em></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Responsive-Mobile_First-047857?style=for-the-badge" alt="Responsive" />
+  </p>
+</div>
+
+---
+
+## 🌍 About The Project
+
+This is a modern, responsive, single-page awareness website built for the **InAmigos Foundation**, a registered Section 8 Non-Profit NGO. The foundation focuses on six core causes across India, spanning education, animal welfare, environmental conservation, and the empowerment of women and youth.
+
+This website serves to highlight their impact, credibility, and ongoing projects while providing clear calls to action for donations and volunteering.
+
+### ✨ Key Features
+
+- **Modern UI/UX**: Features a premium "Emerald Green & Warm Amber" theme tailored for an NGO, complete with glassmorphism effects and soft drop shadows.
+- **Scroll Reveal Animations**: Elements smoothly animate into view as the user scrolls down the page, utilizing the Intersection Observer API for high performance.
+- **Dynamic Counters**: Impact statistics feature a dynamic JavaScript count-up animation when they enter the viewport.
+- **Fully Responsive**: A mobile-first approach ensures the site looks perfect on all devices, featuring a custom animated hamburger menu for mobile navigation.
+- **Semantic & Accessible**: Built with semantic HTML5 tags to ensure structural clarity and accessibility.
+
+---
+
+## 🛠️ Built With
+
+* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="20" height="20"/> **HTML5**: For semantic page structure.
+* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="20" height="20"/> **CSS3**: For advanced styling including CSS Grid/Flexbox, Custom Properties (Variables), and Keyframe Animations.
+* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="20" height="20"/> **Vanilla JavaScript**: For DOM manipulation, sticky navigation, mobile menu toggling, and scroll observers.
+* **FontAwesome**: For lightweight, scalable vector icons.
+* **Google Fonts**: Utilizing `Outfit` for headings and `Inter` for body text.
+
+---
+
+## 📁 Project Structure
+
+```text
+📦 InAmigo
+ ┣ 📂 img                  # Directory containing all project and gallery images
+ ┃ ┣ 📜 LOGO.png
+ ┃ ┣ 📜 Glimpse of our Work.png
+ ┃ ┗ 📜 ...
+ ┣ 📜 index.html           # Main HTML structure
+ ┣ 📜 style.css            # Styling, layout, and animations
+ ┣ 📜 script.js            # Interactivity and Intersection Observers
+ ┣ 📜 README.md            # Project documentation (You are here)
+ ┗ 📜 STUDY_GUIDE.md       # Detailed breakdown of code implementation
+```
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, you don't need any complex build tools or dependencies.
+
+1. **Clone the repository** (or download the files).
+2. **Open the project folder** in your terminal.
+3. **Run a local server**. For example, using Python:
+   ```sh
+   python -m http.server 8000
+   ```
+4. **Open your browser** and navigate to `http://localhost:8000`.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](#) if you want to contribute.
+
+<div align="center">
+  <br>
+  <h2>💚</h2>
+  <p>Built for the community, to unite minds for a change.</p>
+</div>
