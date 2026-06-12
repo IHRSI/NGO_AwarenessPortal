@@ -3,18 +3,23 @@ name: Deploy to Netlify
 on:
   push:
     branches:
-      - main # Double check if your branch is 'main' or 'master'
+      - main # Change to 'master' if needed
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    
+    # 🌟 THIS IS THE MAGIC VARIABLE THAT LIGHTS UP THE SIDEBAR 🌟
+    environment:
+      name: Production
+      url: https://inamigosportal.netlify.app/ # OPTIONAL: Paste your exact Netlify URL here
 
     steps:
-      # Step 1: Pull your HTML, CSS, and JS files
+      # Step 1: Pull your files
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Step 2: Run the deployment directly through the Netlify system
+      # Step 2: Push files to Netlify 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --prod --dir=.
         env:
