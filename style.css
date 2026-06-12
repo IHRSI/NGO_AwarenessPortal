@@ -807,10 +807,13 @@ img {
     }
     
     .image-caption {
+        position: relative;
+        bottom: 0;
         right: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 80%;
+        left: 0;
+        transform: none;
+        width: 100%;
+        margin-top: 20px;
         text-align: center;
     }
 }
