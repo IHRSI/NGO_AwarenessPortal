@@ -25,9 +25,11 @@ This website serves to highlight their impact, credibility, and ongoing projects
 
 - **Modern UI/UX**: Features a premium "Emerald Green & Warm Amber" theme tailored for an NGO, complete with glassmorphism effects and soft drop shadows.
 - **Scroll Reveal Animations**: Elements smoothly animate into view as the user scrolls down the page, utilizing the Intersection Observer API for high performance.
+- **Custom Thematic Cursors**: Features an interactive Emerald Green pointer and a Heart cursor over actionable elements to match the NGO spirit.
 - **Dynamic Counters**: Impact statistics feature a dynamic JavaScript count-up animation when they enter the viewport.
 - **Fully Responsive**: A mobile-first approach ensures the site looks perfect on all devices, featuring a custom animated hamburger menu for mobile navigation.
 - **Semantic & Accessible**: Built with semantic HTML5 tags to ensure structural clarity and accessibility.
+- **Automated CI/CD Pipeline**: Configured with GitHub Actions to automatically deploy to Netlify on push and trigger the GitHub Deployments sidebar widget.
 
 ---
 
@@ -38,6 +40,7 @@ This website serves to highlight their impact, credibility, and ongoing projects
 * <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="20" height="20"/> **Vanilla JavaScript**: For DOM manipulation, sticky navigation, mobile menu toggling, and scroll observers.
 * **FontAwesome**: For lightweight, scalable vector icons.
 * **Google Fonts**: Utilizing `Outfit` for headings and `Inter` for body text.
+* <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub Actions" width="20" height="20"/> **GitHub Actions & Netlify**: For a complete, automated Continuous Deployment (CI/CD) workflow linking live environments directly to the repository UI.
 
 ---
 
