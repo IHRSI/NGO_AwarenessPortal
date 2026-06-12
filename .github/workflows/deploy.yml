@@ -1,0 +1,24 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Clone your repository files onto the GitHub runner
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Push files to Netlify and wake up the GitHub Deployments sidebar
+      - name: Deploy to Netlify
+        uses: jakejarvis/netlify-deploy-action@v0.1.2
+        with:
+          args: --prod --dir=. # '.' deploys your main folder where index.html sits
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
